@@ -1,0 +1,162 @@
+#login-logo {
+   max-width: 196px;
+}
+
+.login {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.continue {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.login-title {
+   text-align: center;
+   color: #5e6c84;
+   font-size: 16px;
+   line-height: 28px;
+   margin-top: 10px;
+   margin-bottom: 25px;
+}
+
+.login-text {
+   display: inline-block;
+   font-size: 14px;
+   font-weight: bold;
+   color: #505f79;
+   padding: 3px;
+   height: 32px;
+   line-height: 32px;
+}
+
+.login-input {
+   font-size: 14px;
+   background-color: #fafbfc;
+   border: 2px solid #dfe1e6;
+   border-radius: 3px;
+   margin: 0 0 1.2em;
+   padding: 0.5em;
+   height: 44px;
+   width: 320px;
+   outline-color: #0065ffff;
+}
+
+.login-btn {
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background: #5aac44;
+   color: #fff;
+   padding: 0.6em 1.3em;
+   width: 320px;
+   transition: 0.2s ease-in;
+}
+
+.login-btn:hover {
+   opacity: 0.8;
+}
+
+.or {
+   color: #4d4d4d;
+   font-size: 12px;
+   font-weight: 300;
+   margin-top: 16px;
+   margin-bottom: 16px;
+   max-width: 310px;
+}
+
+.parent {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #fff;
+   color: rgba(0, 0, 0, 0.54);
+   border-color: transparent;
+   text-align: center;
+   border-radius: 3px;
+   padding: 3px;
+   height: 39px;
+
+   margin-bottom: 12px;
+}
+.parent p {
+   font-size: 14px;
+   font-family: inherit;
+   font-weight: bold;
+   color: #505f79;
+   height: 32px;
+   line-height: 32px;
+}
+
+.parent img {
+   width: 18px;
+   height: 18px;
+   margin-right: 5px;
+}
+
+.login a {
+   text-decoration: none;
+   color: #0052cc;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 300;
+   margin-right: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.login a:hover {
+   text-decoration: underline;
+}
+
+.cant {
+   margin-top: 40px;
+}
+
+.policy {
+   margin-top: 40px;
+}
+
+#language {
+   margin-top: 40px;
+   border: none;
+   outline: none;
+}
+
+.atlassia {
+   max-width: 150px;
+   margin-top: 40px;
+}
+
+.login-footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.continiu-btn {
+   background: #e2e4e6;
+   color: hsl(0, 0%, 55%);
+   cursor: pointer;
+   padding: 0.6em 1.3em;
+   font-weight: 600;
+   border: none;
+   outline: none;
+   width: 320px;
+}
+
+@media (max-width: 330px) {
+   .login-input,
+   .login-btn,
+   .continiu-btn {
+      width: 240px;
+   }
+}

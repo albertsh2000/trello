@@ -1,0 +1,98 @@
+.hero {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.hero-title {
+   font-size: 3rem;
+   font-weight: 500;
+   line-height: 1.25;
+   color: #091e42ff;
+   max-width: auto;
+}
+
+.hero-text {
+   font-size: 20px;
+   color: rgb(9, 30, 66);
+   line-height: 1.5;
+   margin-top: 20px;
+   max-width: auto;
+   word-wrap: break-word;
+}
+
+.hero-down-side {
+   margin-top: 50px;
+}
+
+.email-field {
+   font-size: 1.25rem;
+   padding: 0.4rem 0.75rem 0.5rem;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+   outline: none;
+   border: 1px solid rgb(223, 225, 230);
+   border-radius: 0.3rem;
+   max-width: 376px;
+}
+
+.sign-free {
+   border: none;
+   outline: none;
+   border-radius: 0.3rem;
+   cursor: pointer;
+   background-color: rgb(0, 101, 255);
+   border: 1px solid rgb(0, 101, 255);
+   text-decoration: none;
+   font-size: 1.25rem;
+   padding: 0.4rem 1.5rem 0.5rem;
+   color: rgb(255, 255, 255);
+   transition: 0.2s ease-in;
+}
+
+.sign-free:hover {
+   background: #0052ccff;
+}
+
+.hero-img {
+   max-width: 368px;
+   height: 476px;
+}
+
+@media (max-width: 1200px) {
+   .container {
+      max-width: 1000px;
+   }
+}
+
+@media (max-width: 1024px) {
+   .hero {
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+   }
+   .hero-title,
+   .hero-text {
+      padding: 10px;
+   }
+}
+
+@media (max-width: 520px) {
+   .hero-title {
+      margin-top: 20px;
+   }
+   .hero-img {
+      max-width: 288px;
+      height: 238px;
+   }
+   .hero-down-side {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .sign-free {
+      width: 280px;
+   }
+}

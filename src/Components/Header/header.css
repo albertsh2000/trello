@@ -1,0 +1,36 @@
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.8rem;
+}
+
+
+.logo {
+   max-width: 126px;
+}
+
+.log-in {
+   font-size: 17px;
+   font-weight: 600;
+   color: #0065ffff;
+   margin-right: 10px;
+}
+
+.sign-btn {
+   border: none;
+   outline: none;
+   padding: 0.4rem 0.7rem 0.5rem;
+   font-size: 1rem;
+   font-weight: 400;
+   border-radius: 0.3rem;
+   color: #fff;
+   background: #0065ffff;
+   text-decoration: none;
+   cursor: pointer;
+   transition: 0.2s ease-in;
+}
+
+.sign-btn:hover {
+   background: #0052ccff;
+}

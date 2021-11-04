@@ -1,0 +1,133 @@
+form {
+   position: relative;
+   background: linear-gradient(0deg, rgb(64, 50, 148), rgb(76, 154, 255))
+      no-repeat;
+   border-radius: 0.5rem;
+}
+
+.getStarted-container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.form-title {
+   text-align: center;
+   color: #fff;
+   font-size: 1.5rem;
+   font-weight: 400;
+   padding-top: 20px;
+}
+
+.form-inner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem 3rem;
+}
+
+.form-email {
+   font-size: 1.25rem;
+   padding: 0.4rem 0.75rem 0.5rem;
+   border-radius: 0.3rem;
+   margin-bottom: 1rem;
+   margin-right: 1rem;
+   max-width: 376px;
+   outline: none;
+   border: none;
+}
+
+.form-sign {
+   margin-bottom: 1rem;
+   border-radius: 0.3rem;
+   background-color: rgb(54, 179, 126);
+   border: 1px solid rgb(54, 179, 126);
+   font-size: 1.25rem;
+   padding: 0.4rem 1.5rem 0.5rem;
+   color: #fff;
+   cursor: pointer;
+   text-decoration: none;
+   transition: 0.2s ease-in;
+}
+
+.form-sign:hover {
+   background: #00875aff;
+}
+
+.appStore-and-PlayMarket {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding: 5rem 1rem 1rem 1rem;
+}
+
+.appStore-img {
+   max-width: 157px;
+   height: 47px;
+}
+
+.appStore-and-PlayMarket p {
+   margin-right: 30px;
+   text-align: center;
+   color: rgb(9, 30, 66);
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.appStore-and-PlayMarket img {
+   margin-right: 25px;
+}
+
+.appStore-and-PlayMarket img:last-child {
+   margin-right: 0;
+}
+
+@media (max-width: 1020px) {
+   .getStarted-container {
+      max-width: 800px;
+   }
+}
+
+@media (max-width: 992px) {
+   .appStore-and-PlayMarket {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .appStore-and-PlayMarket p {
+      margin-right: 0;
+      text-align: center;
+      padding-bottom: 2rem;
+   }
+}
+
+@media (max-width: 810px) {
+   .getStarted-container {
+      max-width: 680px;
+   }
+}
+
+@media (max-width: 690px) {
+   .getStarted-container {
+      max-width: 400px;
+   }
+   .form-inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+@media (max-width: 490px) {
+   .getStarted-container {
+      max-width: 310px;
+   }
+
+   .appStore-and-PlayMarket {
+      padding: 1rem 0rem;
+   }
+   .appStore-and-PlayMarket img {
+      max-width: 160px;
+      margin-right: 15px;
+   }
+}
